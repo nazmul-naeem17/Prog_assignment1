@@ -1,0 +1,760 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #1c1c1c;
+  color: white;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+a,
+.btn {
+  transition: all 300ms ease;
+}
+
+nav,
+.nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+}
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #FD6F00;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+}
+
+.logo img {
+  width: 120px;
+}
+
+.logo:hover {
+  cursor: default;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 20px;
+  background-color: #FD6F00;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.btn3 {
+  padding: 10px;
+  width: 120px;
+  font-size: 20px;
+  background-color: #FD6F00;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btn2 {
+  padding: 10px;
+  width: 120px;
+  font-size: 20px;
+  background-color: #FD6F00;
+  border: none;
+  color: white;
+  margin-left: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.span {
+  color: #FD6F00;
+}
+
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.section-container {
+  display: flex;
+}
+
+/* PROFILE SECTION */
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  gap: 8rem;
+  height: 80vh;
+}
+
+.section__pic-container {
+  display: flex;
+  height: 420px;
+  width: 420px;
+  margin: auto 0;
+  margin-top: -10px;
+}
+
+.star {
+  width: 40px;
+}
+
+.skill {
+  color: white;
+  margin-bottom: 10px;
+  text-align: start;
+}
+
+.section__text {
+  align-self: center;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: start;
+}
+
+#socials-container {
+  display: flex;
+  width: 230px;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+#socials-container img {
+  background-color: white;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.btn-container {
+  text-align: start;
+  margin-top: 10px;
+}
+
+/* ICONS */
+
+.icon {
+  cursor: pointer;
+  height: 2rem;
+}
+
+.info{
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  margin-left: 0px;
+}
+.info-desk{
+  display: flex;
+  justify-content: space-around;
+  margin-top: -10px;
+  font-weight: 900;
+  font-size: 20px;
+}
+p:hover{
+  color: #FD6F00;
+  transition: all 0.3s ease;
+  text-decoration: underline;
+  text-underline-offset: 1px;
+  text-decoration-thickness: 2px;
+  cursor: pointer;
+}
+#about {
+  display: flex;
+  height: 250px;
+}
+
+.about-left {
+  width: 50%;
+}
+
+.about-text {
+  margin-top: 20px;
+}
+
+.about-right {
+  margin-left: 20%;
+  margin-top: 40px;
+}
+
+#experience {
+  display: flex;
+  background-image: linear-gradient(to right bottom, #0f2833, #3d1210, #431f55);
+  width: 100%;
+  margin-left: 0;
+  height: 450px;
+}
+
+.experience-left {
+  margin-left: 12%;
+  margin-top: 50px;
+  width: 50%;
+}
+
+.experience-left p {
+  margin-top: 20px;
+}
+
+.experience-left h2 {
+  margin-top: 20px;
+}
+
+.experience-right {
+  width: 500px;
+  margin-left: -5%;
+  margin-top: 20px;
+}
+
+.experience-right p {
+  margin-top: 20px;
+}
+
+.experience-right h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.ptext {
+  display: flex;
+}
+
+.last {
+  text-align: end;
+  width: 285px;
+}
+
+.last2 {
+  text-align: end;
+  width: 300px;
+}
+
+.award-text h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.award-text p {
+  text-align: center;
+  font-size: 14px;
+}
+
+.award1-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.award1 {
+  margin-top: 50px;
+  background-color: black;
+  padding: 40px;
+}
+
+.award1 p {
+  margin-top: 20px;
+  width: 660px;
+}
+
+.Portfolio-text {
+  text-align: center;
+  margin-top: 110px;
+}
+
+.Portfolio-text p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.button {
+  padding: 10px;
+  font-size: 20px;
+  background-color: black;
+  border: none;
+  color: white;
+  margin-left: 10px;
+}
+
+.button2 {
+  padding: 10px;
+  font-size: 20px;
+  background-color: #FD6F00;
+  border: none;
+  color: white;
+  margin-left: 10px;
+}
+
+.Button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.website1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.website2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.website-text {
+  width: 46%;
+}
+
+.website-text p {
+  margin-top: 20px;
+}
+
+.website-text h2 {
+  margin-top: 20px;
+}
+
+.contact-text{
+  text-align: center;
+  margin-top: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 30px;
+}
+.contact__inputs {
+  display: grid;
+  row-gap: 2rem;
+  margin-bottom: var(--mb-2-5);
+}
+
+.contact__content {
+  position: relative;
+  height: 3rem;
+  border-bottom: 1px solid var(--text-color-light);
+}
+
+.contact__form {
+  background-color: #68330844;
+  padding: 30px 50px;
+  margin-top: 40px;
+}
+
+.contact__input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  padding: 2rem 2rem 2rem 0;
+  background: none;
+  color: var(--text-color);
+  border: none;
+  border-bottom: 1px solid white;
+  box-sizing: border-box;
+  margin-left: 5px;
+}
+
+.contact__label {
+  position: absolute;
+  top: .75rem;
+  width: 100%;
+  font-size: 20px;
+  transition: .3s;
+}
+
+::placeholder {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.contact__area textarea {
+  resize: none;
+  height: 100px;
+  overflow-y: hidden;
+}
+
+.contact_file{
+  margin-top: 40px;
+  border: none;
+  cursor: pointer;
+}
+#contact {
+  margin-top: 500px;
+}
+
+.contact-btn {
+  padding: 10px;
+  font-size: 20px;
+  background-color: #FD6F00;
+  border: none;
+  color: white;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+
+footer {
+  height: 50vh;
+  margin-top: 170px;
+  background-color: black;
+}
+
+.footer-logo {
+  text-align: center;
+}
+
+footer img {
+  margin-top: 50px;
+}
+
+footer p {
+  text-align: center;
+}
+
+.last-para {
+  text-align: center;
+  padding: 20px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: -40px;
+}
+
+.social-icons img {
+  background-color: white;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+  }
+
+  .logo img {
+    width: 120px;
+    margin-bottom: 10px;
+  }
+
+  section {
+    margin: 0 1rem;
+    padding: 2vh 0;
+  }
+
+  #profile {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 0;
+    margin-top: 180px;
+  }
+
+  .section__pic-container {
+    width: auto;
+    height: auto;
+    margin: 0;
+  }
+
+  .section__text {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  #socials-container {
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  #about {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    margin-top: 200px;
+  }
+
+  .about-left,
+  .about-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  #experience {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 1rem 0;
+    margin-top: 120px;
+  }
+
+  .experience-left,
+  .experience-right {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .experience-right {
+    margin-top: 2rem;
+  }
+
+  .award1,
+  .website1,
+  .website2 {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  .about-right {
+    margin-left: -5px;
+  }
+
+  .award1-text,
+  .website-text {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .award1 p {
+    width: 380px;
+    padding: 8px;
+  }
+
+  .website1 img,
+  .website2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .website2 {
+    margin-top: -50px;
+  }
+
+  #myportfolio {
+    margin-top: -130px;
+  }
+
+  .contact-text {
+    margin-top: 400px;
+  }
+
+  .contact__form {
+    margin: 2rem 1rem;
+  }
+
+  footer {
+    height: auto;
+    padding: 2rem 1rem;
+    margin-top: 270px;
+  }
+
+  .social-icons {
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet Styles */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+
+  html,
+  head,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 0;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    gap: 1.5rem;
+    font-size: 1.25rem;
+  }
+
+  .logo img {
+    width: 100px;
+  }
+
+  section {
+    margin: 0 2rem;
+    padding: 4vh 0;
+  }
+
+  #profile {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 1.5rem 0;
+  }
+
+  .section__pic-container {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin: 0;
+  }
+
+  .section__text {
+    text-align: center;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  #socials-container {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  #about {
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 0;
+    margin-top: 100px;
+  }
+
+  .about-left,
+  .about-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  #experience {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 1.5rem 0;
+    margin-top: 50px;
+  }
+
+  .experience-left,
+  .experience-right {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+
+  .experience-right {
+    margin-top: 2rem;
+  }
+
+  .award1,
+  .website1,
+  .website2 {
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 0;
+  }
+
+  .website2 {
+    margin-top: -60px;
+  }
+
+  .award1-text,
+  .website-text {
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+
+  .website1 img,
+  .website2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  #myportfolio {
+    margin-top: -370px;
+  }
+
+  .contact__form {
+    margin: 2rem 2rem;
+    margin-top: 140px;
+  }
+
+  footer {
+    height: auto;
+    padding: 2rem 2rem;
+    margin-top: -140px;
+  }
+
+  .social-icons {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.5rem 0;
+  }
+}
